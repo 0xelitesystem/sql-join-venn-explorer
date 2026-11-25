@@ -1,8 +1,8 @@
-# SQL Join Visualizer
+# SQL Join Venn Explorer
 
 An interactive teaching tool for SQL joins. Pick INNER, LEFT, RIGHT, FULL OUTER, or CROSS JOIN and see three things update together: a Venn diagram of what the join keeps, the generated SQL statement, and the actual result table computed live from editable sample data. Single HTML file, no external dependencies, works offline.
 
-**Live demo:** https://0xelitesystem.github.io/sql-join-visualizer/
+**Live demo:** https://0xelitesystem.github.io/sql-join-venn-explorer/
 
 ## Use
 
@@ -39,8 +39,8 @@ If you use the theme toggle, your light or dark choice is saved in your browser'
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/sql-join-visualizer
-cd sql-join-visualizer
+git clone https://github.com/0xelitesystem/sql-join-venn-explorer
+cd sql-join-venn-explorer
 ```
 
 Open `index.html` in a browser, or serve the folder with `python -m http.server` and visit http://localhost:8000.
